@@ -3,9 +3,19 @@ html{
   background-repeat: no-repeat;
   background-color:#76453B ;
 }
+
+.image{
+  text-align: center;
+  padding-top: 20px;
+  margin-right: none;
+  border-style: none;
+  outline-style: none;
+  border-radius: none;
+}
+
 .main{
   padding-left: 0%;
-  margin-left: 68%;
+  margin-left: 0%;
   background-color: #43766C;
   background-size: 50%;
   border: none;
@@ -58,10 +68,17 @@ button:hover{
   opacity: 0.80;
 }
 
-label input{
+label input {
   text-size-adjust: 10px;
   padding: 14px 20px;
-  color: #EDDBC7;
+  color: black;
   margin: 8px 0;
   width: 100%;
+}
+
+#hasilLuas, #hasilKeliling{
+  width: 100%;
+  background-color: white;
+  padding: none;
+  border: none;
 }
